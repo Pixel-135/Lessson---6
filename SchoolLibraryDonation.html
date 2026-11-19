@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Donation Form</title>
+</head>
+<body style="background: linear-gradient(to right,lavender,lightblue);">
+    <h1><i>Book Donation Form</i></h1> 
+    <form>
+<fieldset>
+    <legend>Donor Details</legend>
+    <label>Your Name:</Label>
+    <input type="Text"><br><br>
+    <label>Donor ID:</label>
+    <input type="password"><br><br>
+    <label>Donation Date:</label>
+    <input type="Date"><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>
+            <label>Book Category</label>
+            </legend>
+            <select>
+                <option>Fiction</option>
+                <option>Science</option>
+                <option>History</option>
+                <option>Education</option>
+            </select><br> 
+            <label>Book Condition:</label>
+            <input type="radio" name="condition"><label>Like New</label>
+            <input type="radio" name="condition"><label>Good</label>
+            <input type="radio" name="condition"><label>Used</label><br><br>
+             <label>Book Title or Notes:</label><br>
+             <textarea rows="4" cols="30"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Drop-Off Day</legend>
+            <input type="checkbox"> <label>Monday</label>
+            <input type="checkbox"> <label>Wednesday</label>
+            <input type="checkbox"> <label>Friday</label><br><br>
+            <button type="submit">Donate My Book</button>
+    </fieldset>
+    </form>
+</body>
+</html>
